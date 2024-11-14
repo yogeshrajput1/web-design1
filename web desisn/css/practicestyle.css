@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    padding: 0 50px;
+
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #ff2b85;
+    /* font-family: coursive; */
+    margin: 0 5px;
+
+}
+
+.banner {
+    /* background-image:url(../image/about-foodpanda-1920x539.jpeg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../image/about-foodpanda-1920x539.jpeg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner h1 {
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    top: 35px;
+    color: white;
+    width: 33%;
+    margin: auto;
+    background-color: rgba(0, 0, 244, 0.1);
+}
+
+.news {
+    background: linear-gradient(to right, red, green, blue);
+    width: 100%;
+    height: 50px;
+
+}
+
+.news marquee {
+    font-size: 33px;
+    font-family: cursive;
+    color: white;
+    line-height: 50px;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 3px black;
+    background: linear-gradient(rgba(), rgba());
+
+}
